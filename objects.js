@@ -13,4 +13,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist
 }
 
-removeFromPlaylist()
+removeFromPlaylist(playlist, 'Davido')
