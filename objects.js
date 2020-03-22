@@ -8,9 +8,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist(playlist, 'Davido', 'I love You')
 
 function removeFromPlaylist(playlist, artistName) {
-  playlist[] = delete.
+  delete playlist.artistName  
   
   return playlist
 }
 
-removeFromPlaylist(playlist, artistName)
+removeFromPlaylist(playlist, 'Slowdive')
