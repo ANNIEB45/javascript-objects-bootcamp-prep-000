@@ -6,3 +6,11 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 updatePlaylist(playlist, 'Davido', 'I love You')
+
+function removeFromPlaylist(playlist, artistName) {
+  playlist[artistName].pop()
+  
+  return playlist
+}
+
+removeFromPlaylist
